@@ -1,0 +1,40 @@
+@import url(c:\Personal_info\RAKETA\css\sass\normalaze.css);
+article {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+}
+
+.footer {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  background-color: #f4eee0;
+}
+
+.main-info {
+  background-color: #6e2047;
+}
+
+.price-table {
+  background-color: #a31d40;
+}
+
+.map {
+  background-color: #dc2328;
+}
+
+.gallery {
+  background-color: #ec4e24;
+}
+
+.footer {
+  background-color: #fdd041;
+}
+/*# sourceMappingURL=main.css.map */
