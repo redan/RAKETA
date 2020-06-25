@@ -1,4 +1,3 @@
-@import url(c:\Personal_info\RAKETA\css\sass\normalaze.css);
 article {
   height: 100vh;
   width: 100%;
@@ -36,5 +35,14 @@ article {
 
 .footer {
   background-color: #fdd041;
+}
+
+.rocket_IMG {
+  width: 200px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  bottom: 0;
+  left: 43.5%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -36,4 +36,13 @@ article {
 .footer {
   background-color: #fdd041;
 }
+
+.rocket_IMG {
+  width: 200px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  bottom: 0;
+  left: 43.5%;
+}
 /*# sourceMappingURL=test.css.map */
