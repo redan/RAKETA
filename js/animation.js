@@ -7,9 +7,6 @@
 // .addTo(controller);
 
 
-// gsap.registerPlugin(ScrollTrigger);
-
-
 // gsap.to(".rocket_IMG", {
 //   scrollTrigger: ".rocket_IMG", // start the animation when ".box" enters the viewport (once)
 //   y: 700
@@ -43,13 +40,19 @@
 // },);
 // }
 
-gsap.registerPlugin(ScrollTrigger);
+
+
+gsap.registerPlugin(Draggable, ScrollToPlugin, ScrollTrigger);
 
 gsap.to(".rocket_IMG", {
   y: -400,
   scrollTrigger: {
     trigger: ".rocket_IMG",
-    start: "bottom bottom",
-    end: "top 400px",
+    start: "-600px center",
+    markers: true,
+    scrub: true,
+    pin: true,
+    pinSpacing: true,
+    end: "center 560px",
   }
-});
+}); 
