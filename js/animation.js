@@ -45,14 +45,14 @@
 gsap.registerPlugin(Draggable, ScrollToPlugin, ScrollTrigger);
 
 gsap.to(".rocket_IMG", {
-  y: -400,
+  y: -5000,
   scrollTrigger: {
     trigger: ".rocket_IMG",
-    start: "-600px center",
+    start: "center 810px",
     markers: true,
     scrub: true,
     pin: true,
     pinSpacing: true,
-    end: "center 560px",
+    end: "center 350px",
   }
 }); 
