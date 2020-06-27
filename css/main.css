@@ -15,6 +15,7 @@ article {
 
 .header {
   background-color: #f4eee0;
+  overflow: hidden;
 }
 
 .main-info {
@@ -49,5 +50,14 @@ article {
 .spacer {
   position: absolute;
   top: 70%;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=main.css.map */

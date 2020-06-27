@@ -15,6 +15,7 @@ article {
 
 .header {
   background-color: #f4eee0;
+  overflow: hidden;
 }
 
 .main-info {
