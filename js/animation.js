@@ -44,9 +44,22 @@
 
 gsap.registerPlugin(Draggable, ScrollToPlugin, ScrollTrigger);
 
-gsap.to(".rocket_IMG", {
-  y: -800,
-  ease: "expo.in",
+// gsap.to(".rocket_IMG", {
+//   y: -800,
+//   ease: "expo.in",
+//   scrollTrigger: {
+//     trigger: ".header",
+//     start: "bottom bottom",
+//     markers: true,
+//     scrub: true,
+//     pin: ".header",
+//     pinSpacing: false,
+//     end: "+=100%",
+//     pinReparent: true,
+//   }
+// });
+
+var tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".header",
     start: "bottom bottom",
@@ -59,3 +72,6 @@ gsap.to(".rocket_IMG", {
   }
 });
 
+tl.addLabel("start")
+  .to(".rocket_IMG", {y: -600, opacity: 0})
+  .to(".earth_IMG", {opacity: 0, y: 300})
