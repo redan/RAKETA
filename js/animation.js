@@ -45,7 +45,7 @@
 gsap.registerPlugin(Draggable, ScrollToPlugin, ScrollTrigger);
 
 gsap.to(".rocket_IMG", {
-  y: -900,
+  y: -800,
   ease: "expo.in",
   scrollTrigger: {
     trigger: ".header",
@@ -58,6 +58,4 @@ gsap.to(".rocket_IMG", {
     pinReparent: true,
   }
 });
-
-var tl = new TimelineMax();
 
