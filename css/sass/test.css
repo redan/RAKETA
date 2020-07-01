@@ -62,4 +62,40 @@ article {
   position: absolute;
   top: 70%;
 }
+
+.header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__title .header__mainTitle {
+  text-transform: uppercase;
+  margin: 0 auto;
+  opacity: 0;
+  line-height: initial;
+}
+
+.header__title .header__secondTitle {
+  text-transform: uppercase;
+  margin: 0 auto;
+  opacity: 0;
+  line-height: initial;
+}
+
+.header__title .header__title__horizontalLine {
+  height: 5px;
+  background-color: black;
+  width: 60vw;
+  margin: 0 auto;
+  opacity: 0;
+}
 /*# sourceMappingURL=test.css.map */

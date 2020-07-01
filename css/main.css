@@ -65,7 +65,7 @@ article {
 .rocket_IMG {
   width: 200px;
   position: absolute;
-  bottom: 140px;
+  bottom: 110px;
   left: 50%;
   -webkit-transform: translate(-50%, 0) rotate(-45deg);
           transform: translate(-50%, 0) rotate(-45deg);
@@ -87,8 +87,51 @@ article {
   top: 70%;
 }
 
+.header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__title .header__mainTitle {
+  text-transform: uppercase;
+  margin: 0 auto;
+  opacity: 0;
+  line-height: initial;
+}
+
+.header__title .header__secondTitle {
+  text-transform: uppercase;
+  margin: 0 auto;
+  opacity: 0;
+  line-height: initial;
+}
+
+.header__title .header__title__horizontalLine {
+  height: 5px;
+  background-color: black;
+  width: 60vw;
+  margin: 0 auto;
+  opacity: 0;
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 ul {
@@ -105,7 +148,7 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   font-family: TTSupermolotNeue-ExtraBoldItalic , sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   color: black;
 }
 /*# sourceMappingURL=main.css.map */
