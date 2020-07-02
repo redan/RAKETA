@@ -72,6 +72,17 @@ article {
   z-index: 2;
 }
 
+.rocket_IMG_fire {
+  width: 250px;
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0) rotate(-45deg);
+          transform: translate(-50%, 0) rotate(-45deg);
+  z-index: 2;
+  opacity: 0;
+}
+
 .earth_IMG {
   position: absolute;
   width: 325px;
