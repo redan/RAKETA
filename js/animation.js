@@ -9,8 +9,9 @@ var tl = gsap.timeline({
     scrub: true,
     pin: ".header",
     pinSpacing: false,
-    end: "+=100%",
+    end: "+=2000",
     pinReparent: true,  
+    scrub: true,
     // onUpdate: self => console.log("progress:", self.progress)
   },
   duration: 100,
