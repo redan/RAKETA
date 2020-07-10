@@ -23,6 +23,11 @@ article {
   overflow: hidden;
 }
 
+.spacer {
+  background: transparent;
+  height: 2000px;
+}
+
 .main-info {
   background-color: #6e2047;
 }
@@ -83,11 +88,6 @@ article {
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 1;
-}
-
-.spacer {
-  position: absolute;
-  top: 70%;
 }
 
 .header__title {
